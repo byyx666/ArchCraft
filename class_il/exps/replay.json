@@ -1,0 +1,14 @@
+{
+    "prefix": "reproduce",
+    "dataset": "cifar100",
+    "memory_size": 2000,
+    "memory_per_class": 20,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 5,
+    "increment": 5,
+    "model_name": "replay",
+    "convnet_type": "arch_craft",
+    "device": ["0"],
+    "seed": [1993]
+}
