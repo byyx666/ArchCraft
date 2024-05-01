@@ -9,7 +9,7 @@ class Appr(object):
     def __init__(self,model,nepochs=20,sbatch=128,lr=0.01,clipgrad=10):
         self.model=model
 
-        self.nepochs=2
+        self.nepochs=nepochs
         self.sbatch=sbatch
         self.lr=lr
         self.clipgrad=clipgrad
