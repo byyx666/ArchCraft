@@ -14,7 +14,7 @@ Inc_cls = 5    # Number of classes incremented at each step
 def run_test():
     indi_no = 0
     code=[2, 40, [1, 1, 2, 2, 2], [0, 0, 0, 1, 2]]    # AlexAC-A, about 6.28M
-    #code=[2, 32, [1, 1, 2, 2, 2], [0, 1, 2, 2, 2]]    # AlexAC-B, about 0.19M
+    #code=[2, 32, [1, 1, 2, 2, 2], [0, 1, 2, 2, 2]]    # AlexAC-B, about 0.92M
     network_choices = ['arch_craft', 'alexnet']
     chosen_network = network_choices[0]
     m = TrainModel(code=code, indi_no=indi_no, network_name=chosen_network)
