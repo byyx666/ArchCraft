@@ -47,18 +47,11 @@ Then run evolve.py
 If you find this repo useful, please consider citing our paper.
 ```bibtex
 @inproceedings{ArchCraft_Lu_IJCAI2024,
-  title     = {Revisiting Neural Networks for Continual Learning: An Architectural Perspective},
-  author    = {Lu, Aojun and Feng, Tao and Yuan, Hangjie and Song, Xiaotian and Sun, Yanan},
-  booktitle = {Proceedings of the Thirty-Third International Joint Conference on
-               Artificial Intelligence, {IJCAI-24}},
-  publisher = {International Joint Conferences on Artificial Intelligence Organization},
-  editor    = {Kate Larson},
-  pages     = {4651--4659},
-  year      = {2024},
-  month     = {8},
-  note      = {Main Track},
-  doi       = {10.24963/ijcai.2024/514},
-  url       = {https://doi.org/10.24963/ijcai.2024/514},
+  title = {Revisiting Neural Networks for Continual Learning: An Architectural Perspective},
+  author = {Lu, Aojun and Feng, Tao and Yuan, Hangjie and Song, Xiaotian and Sun, Yanan},
+  booktitle = {IJCAI},
+  pages = {4651--4659},
+  year = {2024}
 }
 ```
 
