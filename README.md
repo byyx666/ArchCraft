@@ -27,6 +27,8 @@
 I changed all the paths to prevent possible information leakage.
 In order to run the code, you will need to configure the paths to match your own system (see class_il/utils/data.py and task_il/dataloaders).
 
+If there are any questions, please feel free to open an issue or contact with the author: **Aojun Lu** ([aojunlu@stu.scu.edu.cn](mailto:aojunlu@stu.scu.edu.cn))
+
 ⭐⭐⭐Consider starring the repo! ⭐⭐⭐
 
 ## How to Use
@@ -44,11 +46,19 @@ Then run evolve.py
 ## Citation
 If you find this repo useful, please consider citing our paper.
 ```bibtex
-@article{lu2024revisiting,
-  title={Revisiting Neural Networks for Continual Learning: An Architectural Perspective},
-  author={Lu, Aojun and Feng, Tao and Yuan, Hangjie and Song, Xiaotian and Sun, Yanan},
-  journal={arXiv preprint arXiv:2404.14829},
-  year={2024}
+@inproceedings{ArchCraft_Lu_IJCAI2024,
+  title     = {Revisiting Neural Networks for Continual Learning: An Architectural Perspective},
+  author    = {Lu, Aojun and Feng, Tao and Yuan, Hangjie and Song, Xiaotian and Sun, Yanan},
+  booktitle = {Proceedings of the Thirty-Third International Joint Conference on
+               Artificial Intelligence, {IJCAI-24}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Kate Larson},
+  pages     = {4651--4659},
+  year      = {2024},
+  month     = {8},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2024/514},
+  url       = {https://doi.org/10.24963/ijcai.2024/514},
 }
 ```
 
