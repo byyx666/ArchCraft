@@ -15,6 +15,7 @@ from convs.memo_resnet import  get_resnet18_imagenet as get_memo_resnet18 #for M
 from convs.memo_cifar_resnet import get_resnet32_a2fc as get_memo_resnet32 #for MEMO cifar
 
 from convs.arch_craft import arch_craft
+from convs.memo_arch_craft import get_arch_craft as get_memo_arch_craft
 
 
 def get_convnet(args, pretrained=False):
@@ -55,6 +56,9 @@ def get_convnet(args, pretrained=False):
     #Arch_Craft
     elif name == 'arch_craft':
         return arch_craft(pretrained=False,args=args)
+    elif name == 'memo_arch_craft':
+        _basenet, _adaptive_net = get_memo_arch_craft(args=args)
+        return _basenet, _adaptive_net
         
     else:
         raise NotImplementedError("Unknown type {}".format(name))
