@@ -149,7 +149,7 @@ def get_arch_craft(pretrained=False, progress=True, args=None, **kwargs):
     pool = [int(x) for x in args['pool']]
     double = [int(x) for x in args['double']]
 
-    border = int(depth*3/4)
+    border = int(depth*2/3)
 
     basenet = GeneralizedNet(depth, width, copy.deepcopy(pool), copy.deepcopy(double), border, args)
     adaptivenet = SpecializedNet(depth, basenet.out_dim, copy.deepcopy(pool), copy.deepcopy(double), border, args)
